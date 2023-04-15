@@ -64,7 +64,7 @@ class ChatAI:
         msgs.append( {"role": "user", "content": userComment} )
 
         #print("messages:")
-        pprint.pprint(msgs, sort_dicts=False)
+        #pprint.pprint(msgs, sort_dicts=False)
 
         # GET AI RESPONSE
         response = openai.ChatCompletion.create(
